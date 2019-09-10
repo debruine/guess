@@ -1,0 +1,39 @@
+.A {
+  color: white !important; 
+  background: #DD4B39 !important;
+}
+.B {
+  color: white !important; 
+  background: #0073B7 !important;
+}
+.null {
+  color: white !important; 
+  background: #605CA8 !important;
+}
+
+#guess_A, #guess_A2, #guess_A5, #guess_A8 {
+  border-color: #DD4B39 !important;
+}
+#guess_B, #guess_B2, #guess_B5, #guess_B8 {
+  border-color: #0073B7 !important;
+}
+#guess_0, #guess_00 {
+  border-color: #605CA8 !important;
+}
+
+#samplesBox, #esBox, #guessBox {
+  min-width: 32%;
+  display: inline-block;
+}
+
+.checkbox { margin: 0; }
+.shiny-input-container { margin-bottom: 0; }
+
+#submit_guess, #d_guess { display: none; }
+
+#septenary_buttons button {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+#sidebarCollapsed,.sidebar-toggle { display: none; }
