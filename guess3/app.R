@@ -39,7 +39,7 @@ server <- function(input, output, session) {
   tog_interface(FALSE)
   # always hidden now (only needs shown for continuous slider)
   hide("submit_guess") 
-  presets(session = session)
+  #presets(session = session)
   
   # toggle for trinary/continuous input ----
   observe({
